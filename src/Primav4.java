@@ -39,7 +39,7 @@ public class Primav4 {
             edad=(int)Edad;
         }else{
         
-            System.out.println("Error, Edad no valida, ingrese entero");
+            System.out.println("Error, datos en Edad no validos, ingrese entero");
             return 0;
             
         }
@@ -50,7 +50,7 @@ public class Primav4 {
             }
         	else{
             
-                System.out.println("Error, Puntos no validos, ingrese entero");
+                System.out.println("Error, datos en Puntos no validos, ingrese entero");
                 return 0;
             }
             
@@ -152,5 +152,4 @@ public class Primav4 {
         }
     	return prima;
     }
-
 }
